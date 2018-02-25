@@ -37,9 +37,8 @@ section:not(.hero) {
   color: black;
 }
 
-section .header:not(.hero) {
+section .header {
   font-family: "Bebas Neue";
-  font-size: 3em;
   margin-bottom: 30px;
 }
 
@@ -118,6 +117,10 @@ header nav ul {
   border-radius: 50px;
 }
 
+.about .header {
+  font-size: 3em;
+}
+
 /*Portfolio Styles*/
 
 .portfolio {
@@ -149,8 +152,16 @@ header nav ul {
   color: black;
 }
 
+.portfolio .header {
+  font-size: 3em;
+}
+
 /*Contact Styles*/
 
 .contact {
   justify-content: center;
+}
+
+.contact .header {
+  font-size: 3em;
 }
