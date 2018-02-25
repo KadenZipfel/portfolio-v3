@@ -101,3 +101,18 @@ header nav ul {
     font-size: 2.5em;
   }
 }
+
+/*About Styles*/
+
+.about {
+  justify-content: center;
+}
+
+.about .thumbnail {
+  padding: 0;
+  border: none;
+}
+
+.about .thumbnail img {
+  border-radius: 50px;
+}
