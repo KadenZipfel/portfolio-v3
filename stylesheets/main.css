@@ -38,7 +38,7 @@ section:not(.hero) {
 }
 
 section .header {
-  font-family: "BebasNeue", "Oswald";
+  font-family: "Bebas Neue", "Oswald";
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 30px;
