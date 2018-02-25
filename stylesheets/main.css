@@ -84,12 +84,16 @@ header nav ul {
   background-position: center;
   z-index: -1;
   background-image: url("../img/background-img.jpg");
+  opacity: 0;
+  animation: 0.5s fadeIn 1s forwards;
 }
 
 .hero h1 {
   margin-top: -70px;
   font-size: 5em;
   font-weight: 300;
+  opacity: 0;
+  animation: 3s fadeIn 1s forwards;
 }
 
 .hero h1 span {
@@ -99,6 +103,12 @@ header nav ul {
 @media (max-width: 800px) {
   .hero h1 {
     font-size: 2.5em;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
   }
 }
 
