@@ -49,3 +49,19 @@ section:not(.hero):nth-child(odd) {
 section:not(.hero):nth-child(even) {
   background-color: #f5f5f5;
 }
+
+/*Header Styles*/
+
+header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+header nav ul {
+  padding: 0;
+}
